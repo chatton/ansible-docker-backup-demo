@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Backup Portainer
+      include_role:
+        name: chatton.docker_backup.docker_s3_backup
+      vars:
+        container_backup: portainer
+
+

@@ -1,0 +1,5 @@
+---
+collections:
+  - name: https://github.com/chatton/ansible-docker-backup.git
+    type: git
+    version: v0.1.0

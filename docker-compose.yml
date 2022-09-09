@@ -1,0 +1,14 @@
+---
+version: '3.2'
+services:
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    ports:
+    - 9000:9000
+    volumes:
+    - portainer_data:/data
+
+volumes:
+  portainer_data:
+
