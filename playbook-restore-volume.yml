@@ -1,0 +1,10 @@
+---
+- hosts: localhost
+  tasks:
+  - name: Restore Docker Volume
+    ansible.builtin.include_role:
+      name: chatton.docker_backup.docker_s3_volume_restore
+    vars:
+      docker_backup_restore_latest_s3_key: true
+      docker_backup_s3_volume:
+        name: ansible-docker-backup-demo_portainer_data

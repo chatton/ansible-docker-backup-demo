@@ -1,0 +1,7 @@
+---
+docker_backup_aws_s3_region: ""
+docker_backup_aws_s3_bucket: ""
+docker_backup_host_backup_directory: "/tmp"
+docker_backup_aws_s3_url: ""
+docker_backup_aws_s3_aws_access_key: ""
+docker_backup_aws_s3_aws_secret_key: ""
