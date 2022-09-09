@@ -19,6 +19,7 @@ pip install --upgrade pip
 #### Install ansible and dependencies
 
 ```bash
+pip install -r requirements.txt
 pip install ansible
 ansible-galaxy install -r requirements.yml
 ```
